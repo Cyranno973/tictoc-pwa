@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: #1A1D37;
+}
+app-board{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

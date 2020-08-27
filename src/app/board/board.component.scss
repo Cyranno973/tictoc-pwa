@@ -1,10 +1,28 @@
+*{
+	color: #fff;
+	box-sizing: border-box;
+}
 main{
 	display: grid;
-	grid-template-columns: 200px 200px 200px;
+	grid-template-columns: 100px 100px 100px;
 	grid-gap: 0px;
 }
 
-app-square{
+app-square1{
 	border: 1px gray solid;
-	height: 200px;
+	height: 100px;
+}
+button{
+	background-color: #1A1D37;
+	padding: 15px 20px;	
+	margin: 0px;
+	color:#d1379e;
+	border: 1px solid #d1379e;
+	outline: none;
+	transition: 0.3s all ;
+	font-size: 20px;
+	&:hover{
+		background-color: #fff;
+		font-weight: bold;
+	}
 }
